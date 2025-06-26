@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.btn {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.productImage {
+    width: 200px;
+    height: 200px;
+}
